@@ -694,3 +694,6 @@ java.lang.RuntimeException: Finished restoring information for: C:\Users\ITAUser
 
 !ENTRY org.python.pydev.shared_core 4 4 2020-11-15 12:42:33.939
 !MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\VariablesDrills\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2020-11-16 16:40:59.056
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Comments\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
