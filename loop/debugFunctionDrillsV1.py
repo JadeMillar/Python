@@ -20,7 +20,7 @@ poundsToGrams: 4
 '''
 
 #1) The problem starts after this line-----------------------------------------
-ouncesToGallons(24) #HINT: Should this line be here?
+
 
 '''
 This function converts ounces to gallons using three steps. It takes one
@@ -30,7 +30,7 @@ Second, converts cups to quarts.
 Third, converts quarts to gallons.
 Finally, it returns gallons.
 '''
-def ouncesToGallons(ounces
+def ouncesToGallons(ounces):
     #There are eight ounces in a cup
     cups = ounces / 8
     
@@ -40,10 +40,10 @@ def ouncesToGallons(ounces
     #There are four quarts in a gallon
     gallons = quarts / 4
     
-    re gallons
-
+    return gallons
 
 ouncesToGallons()
+ouncesToGallons(24)
 
 #END OF PROBLEM 1--------------------------------------------------------------
 
@@ -67,7 +67,7 @@ def gallonsToOunces(gallons):
     #There are 8 ounces in a cup
     ounces = cups + 8
     
-    return 
+    return ounces
 
 gallonsToOunces(24)
 gallonToOunces(4)
@@ -83,7 +83,7 @@ First, it converts grams to ounces.
 Second, it converts ounces to pounds.
 Then it returns pounds.
 '''
-def gramsToPounds grams):
+def gramsToPounds (grams):
     #There are 16 ounces in one pound
     pounds = ounces / 16
     
@@ -93,7 +93,7 @@ def gramsToPounds grams):
     return pounds
 
 gramsToPounds()
-gramsToPounds(360
+gramsToPounds(360)
 
 #END OF PROBLEM 3--------------------------------------------------------------
 
@@ -106,16 +106,16 @@ First, it converts pounds to ounces.
 Second, it converts ounces to grams.
 Then it returns grams.
 '''
-def poundsToGrams(pounds
+def poundsToGrams(pounds):
     #There are 16 ounces in one pound
     ounces = pounds * 16
     
     #There are .035 ounces in a gram
     grams = ounces / .035
     
-     grams
+    return grams
 
 poundsToGrams()
-poundsToGrams 360)
+poundsToGrams (360)
 
 #END OF PROBLEM 4--------------------------------------------------------------
